@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import { useGetProductByIdQuery } from "../products/productsApi";
+import { useGetProductByIdQuery } from "../products/ProductsApi";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../cart/cartSlice";
 
